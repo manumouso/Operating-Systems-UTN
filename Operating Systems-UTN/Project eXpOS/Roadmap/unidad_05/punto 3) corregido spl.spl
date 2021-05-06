@@ -1,0 +1,13 @@
+alias i R0;
+i = 0;
+while (i < 21) do
+breakpoint;
+if (i % 2 == 0) then
+breakpoint;
+print i;
+i = i + 1;
+endif;
+i = i + 1;
+endwhile;
+print "FIN";
+breakpoint;

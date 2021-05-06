@@ -1,0 +1,606 @@
+nuriadelaude  ~  myexpos  xsm  130  ./xsm --debug
+Previous instruction at IP = 514: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> reg
+R0: 0	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 	R17: 	R18: 	R19: 	
+P0: 	P1: 	P2: 	P3: 	
+BP: 	SP: 	IP: 516	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 532, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 532: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 534, Page No. = 1: PORT P1,R16
+debug> s
+Previous instruction at IP = 534: PORT P1,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 536, Page No. = 1: OUT
+debug> s
+0
+Previous instruction at IP = 536: OUT
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 538, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 538: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 540, Page No. = 1: MOV R16,R0
+debug> reg
+R0: 0	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 0	R17: 0	R18: 	R19: 	
+P0: 	P1: 0	P2: 	P3: 	
+BP: 	SP: 	IP: 540	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 540: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 542, Page No. = 1: ADD R16,1
+debug> s
+Previous instruction at IP = 542: ADD R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 544, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 544: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 546, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 546: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 548, Page No. = 1: JMP 550
+debug> s
+Previous instruction at IP = 548: JMP 550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 532, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 532: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 534, Page No. = 1: PORT P1,R16
+debug> s
+Previous instruction at IP = 534: PORT P1,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 536, Page No. = 1: OUT
+debug> reg
+R0: 1	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 1	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 536	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+1
+Previous instruction at IP = 536: OUT
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 538, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 538: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 540, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 540: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 542, Page No. = 1: ADD R16,1
+debug> s
+Previous instruction at IP = 542: ADD R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 544, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 544: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 546, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 546: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 548, Page No. = 1: JMP 550
+debug> s
+Previous instruction at IP = 548: JMP 550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> reg
+R0: 2	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 2	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 556	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> reg
+R0: 2	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 0	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 550	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> reg
+R0: 2	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 0	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 530	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s 
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> s
+Previous instruction at IP = 552: MUL R16,1
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 554, Page No. = 1: MOV R0,R16
+debug> s
+Previous instruction at IP = 554: MOV R0,R16
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 556, Page No. = 1: BRKP
+debug> s
+Previous instruction at IP = 556: BRKP
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 558, Page No. = 1: JMP 516
+debug> s
+Previous instruction at IP = 558: JMP 516
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 516, Page No. = 1: MOV R16,19
+debug> s
+Previous instruction at IP = 516: MOV R16,19
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 518, Page No. = 1: GT R16,R0
+debug> s
+Previous instruction at IP = 518: GT R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 520, Page No. = 1: JZ R16,560
+debug> s
+Previous instruction at IP = 520: JZ R16,560
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 522, Page No. = 1: MOV R16,R0
+debug> s
+Previous instruction at IP = 522: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 524, Page No. = 1: DIV R16,2
+debug> s
+Previous instruction at IP = 524: DIV R16,2
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 526, Page No. = 1: MOV R17,0
+debug> s
+Previous instruction at IP = 526: MOV R17,0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 528, Page No. = 1: EQ R16,R17
+debug> s
+Previous instruction at IP = 528: EQ R16,R17
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 530, Page No. = 1: JZ R16,550
+debug> reg
+R0: 2	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 0	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 530	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 530: JZ R16,550
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 550, Page No. = 1: MOV R16,R0
+debug> reg
+R0: 2	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 0	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 550	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> s
+Previous instruction at IP = 550: MOV R16,R0
+Mode: KERNEL 	 PID: -1
+Next instruction at IP = 552, Page No. = 1: MUL R16,1
+debug> reg
+R0: 2	R1: 	R2: 	R3: 	R4: 	
+R5: 	R6: 	R7: 	R8: 	R9: 	
+R10: 	R11: 	R12: 	R13: 	R14: 	
+R15: 	R16: 2	R17: 0	R18: 	R19: 	
+P0: 	P1: 1	P2: 	P3: 	
+BP: 	SP: 	IP: 552	PTBR: 	PTLR: 	
+EIP: 	EC: 	EPN: 	EMA: 	
+debug> exit
+Killing the machine
+ nuriadelaude  ~  myexpos  xsm  cd ..
+ nuriadelaude  ~  myexpos 
